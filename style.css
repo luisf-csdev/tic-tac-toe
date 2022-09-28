@@ -1,0 +1,92 @@
+body{
+   text-align: center;
+   background-color: rgb(214, 208, 208);
+}
+
+h1, h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.stage {
+    background-color: white;
+    width: 340px;
+    border-radius: 10px;
+    float: inline-end;
+    background-image: url(./assets/layout.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+#restart {
+    margin: 1.5rem;
+    background-color: rgb(253, 222, 82);
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+#restart:hover {
+    background-color: rgb(243, 211, 70);
+
+}
+
+#restart:active {
+    background-color: rgb(248, 220, 93);
+
+}
+
+h2 {
+    width: 350px;
+    margin: auto;
+    background-color: palevioletred;
+}
+
+.square {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.square:hover {
+    background-color: black;
+    opacity: 0.1;
+}
+
+.o {
+   position: relative; 
+}
+
+.o::after {
+    position: absolute;
+    content: "\274C";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x {
+    position: relative; 
+ }
+ 
+ .x::after {
+     position: absolute;
+     content: "\2B55";
+     font-size: 50px;
+     line-height: 100px;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+ }
