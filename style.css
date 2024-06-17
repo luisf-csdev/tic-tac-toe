@@ -11,7 +11,7 @@ h1, h2{
     background-color: white;
     width: 340px;
     border-radius: 10px;
-    float: inline-end;
+    float: inline;
     background-image: url(./assets/layout.png);
     background-position: center;
     background-size: contain;
